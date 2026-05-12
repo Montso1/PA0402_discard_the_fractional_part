@@ -1,0 +1,15 @@
+#1.1 import math
+
+def calculate_rooms(guests):
+
+rooms_needed = math.ceil(guest/3)
+
+return rooms_needed
+
+
+
+1.2 - total addresses needed per subnet =32
+
+32 = 2^5 = 5 bits are required for host portion
+
+-
